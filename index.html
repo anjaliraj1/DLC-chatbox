@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DLC Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chatbot-container">
+    <div class="chat-header">🤖 DLC Chatbot</div>
+
+    <div class="chat-window" id="chat-window">
+      <div class="bot-msg">Hi there! 👋 Ask me about WhatsApp, Paytm or Google Maps.</div>
+    </div>
+
+    <!-- Typing Preview -->
+    <div class="typing-preview" id="typing-preview"></div>
+
+       <div class="chat-input-area">
+        <input type="text" id="user-input" placeholder="Need help? Ask me how to use Paytm or Maps!" oninput="showTypingPreview()" />
+
+             <button onclick="sendMessage()" class="send-btn">
+                   <img src="send_img.png" alt="Send" class="send-icon" />
+             </button>
+       </div>
+
+    </div>
+
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+
+         
+
+</html>
+
+
+
